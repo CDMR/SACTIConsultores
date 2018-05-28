@@ -7,3 +7,8 @@ Google
 Microsoft
 IBM
 Netflix
+Usando Jquery core
+
+La mayoria de los metodos son llamados como se muestra en la siguente linea
+/*$( "h1" ).remove();*/,
+ 
