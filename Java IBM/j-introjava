@@ -47,5 +47,10 @@ Java SE (Standar Edition) Deevelopment Kit
   La JVM es el corazón del principio "escrito una vez, ejecutado en cualquier lugar" su código se puede ejecutar en cualquier chipset, 
   disponibles para plataformas principales como Linux y Windows y se han implementado subconjuntos del lenguaje Java en las JVM para teléfonos móviles y aficionados de chips.
 
-////Recolector de Basura
+////Recolector de Basura /// Garbage Collector
    en C tienes la capacidad de elegir si el objeto se va a crear en la memoria dinámica (heap) o en la pila del programa (stack)
+   Heap
+   Se alojan los Objetos creados java
+   Stack
+   Valores tradicionales: int, float, double, char
+ver imagen uno obtenida de https://www.youtube.com/watch?v=PrNeKnIqjZE
