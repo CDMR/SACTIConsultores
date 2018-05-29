@@ -30,5 +30,3 @@ Utilidad de Oracle para la generacion de documentación de API´s en formato HTM
     taglets
     API Taglet consta de una sola interfaz
     programas escritos como etiquetas independientes, tales como @todo, o etiquetas en linea , como {@underline}
-    
-_:;
