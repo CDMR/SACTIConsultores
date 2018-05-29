@@ -15,10 +15,10 @@ Parte 1
   Vision general de la plataforma
   Sistemas empresariales heterogéneos
   
-  El lenguaje Java
-    API de Java
-//////// Java doc de forma predeterminada con tres marcos 
-Utilidad de Oracle para la generacion de documentación de API´s en formato HTML apartir de codigo fuengte JAVA
+  ///////////////////El lenguaje Java/////////////////////////////////////////////////
+////API de Java
+    Java doc de forma predeterminada con tres marcos 
+    Utilidad de Oracle para la generacion de documentación de API´s en formato HTML apartir de codigo fuengte JAVA
     Marco principal(a la derecha) dettalles del paquete o de la clase seleccionada
     Marco (superior izquierdo) todos los paquetes en la API
     Marco (inferior izquierdo) clases en cada paquete
@@ -30,3 +30,9 @@ Utilidad de Oracle para la generacion de documentación de API´s en formato HTM
     taglets
     API Taglet consta de una sola interfaz
     programas escritos como etiquetas independientes, tales como @todo, o etiquetas en linea , como {@underline}
+Estructura con paquetes 
+  Paquete (mecanismo de espacio de nombres)
+        {
+        Clases (métodos, variables, constantes...)}
+Reglas de sintaxis parecidas a las de C
+Paradigma de programacion orientaddo a objetos ////OOP////
