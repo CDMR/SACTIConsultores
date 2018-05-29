@@ -1,7 +1,8 @@
 #j-introtojava
 Parte 1
+Java SE (Standar Edition) Deevelopment Kit
   JDK
-  Es una herramienta de desarrollo que incluye Java Runtime Environment, el compilador y las API de java.ç
+  Es una herramienta de desarrollo que incluye Java Runtime Environment, el compilador y las API de java.
    Sun Microsystems
     Adquirido por oracle en el 2010 para optimizar soluciones poe ejemplo
       Oracle Exadata Database Machine X2-8
@@ -30,9 +31,18 @@ Parte 1
     taglets
     API Taglet consta de una sola interfaz
     programas escritos como etiquetas independientes, tales como @todo, o etiquetas en linea , como {@underline}
-Estructura con paquetes 
+    
+    
+////Estructura con paquetes 
   Paquete (mecanismo de espacio de nombres)
         {
         Clases (métodos, variables, constantes...)}
-Reglas de sintaxis parecidas a las de C
-Paradigma de programacion orientaddo a objetos ////OOP////
+   Reglas de sintaxis parecidas a las de C
+   Paradigma de programacion orientaddo a objetos ////OOP////
+   
+/////Compilador de Java
+  Se escibe los codigos en .java y luego se compilan, se revvisa la sintaxis del lenguage, escribe los codigos byte (intrucciones ejecutadas en Java Virtual Machine) en archivos .class
+
+////JVM (Java Virtual Machine)
+  La JVM es el corazón del principio "escrito una vez, ejecutado en cualquier lugar" su código se puede ejecutar en cualquier chipset, 
+  disponibles para plataformas principales como Linux y Windows y se han implementado subconjuntos del lenguaje Java en las JVM para teléfonos móviles y aficionados de chips.
