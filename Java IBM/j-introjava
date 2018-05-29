@@ -46,3 +46,6 @@ Java SE (Standar Edition) Deevelopment Kit
 ////JVM (Java Virtual Machine)
   La JVM es el corazón del principio "escrito una vez, ejecutado en cualquier lugar" su código se puede ejecutar en cualquier chipset, 
   disponibles para plataformas principales como Linux y Windows y se han implementado subconjuntos del lenguaje Java en las JVM para teléfonos móviles y aficionados de chips.
+
+////Recolector de Basura
+   en C tienes la capacidad de elegir si el objeto se va a crear en la memoria dinámica (heap) o en la pila del programa (stack)
