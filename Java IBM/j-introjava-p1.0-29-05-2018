@@ -48,11 +48,15 @@ Java SE (Standar Edition) Deevelopment Kit
   disponibles para plataformas principales como Linux y Windows y se han implementado subconjuntos del lenguaje Java en las JVM para teléfonos móviles y aficionados de chips.
 
 ////Recolector de Basura /// Garbage Collector//Gestion de memoria implicita
-   en C tienes la capacidad de elegir si el objeto se va a crear en la memoria dinámica (heap) o en la pila del programa (stack)
-   Almacenamiento dinamico
-   stack
-   Valores tradicionales: int, float, double, char
+
    JVM asigna automaticamente espacio en memoria para alojar los Objetos creados java (heap)
    Recolector de basura se ejcuta en segundo plano y realiza la inspeccion de los objetos que la aplicacion ya no necesita y recupera la memoria
    
-ver imagen uno obtenida de https://www.youtube.com/watch?v=PrNeKnIqjZE
+   En C tienes la capacidad de elegir si el objeto se va a crear en la memoria dinámica (heap) o en la pila del programa (stack)
+   Almacenamiento dinamico
+   stack
+   Valores tradicionales: int, float, double, char
+   ver imagen uno obtenida de https://www.youtube.com/watch?v=PrNeKnIqjZE
+
+////Kit de desarrollo de Java
+    Verificar documentacion de API JDK //http://www.oracle.com/technetwork/java/javase/documentation/api-jsp-136079.html
