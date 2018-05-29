@@ -1,0 +1,34 @@
+#j-introtojava
+Parte 1
+  JDK
+  Es una herramienta de desarrollo que incluye Java Runtime Environment, el compilador y las API de java.ç
+   Sun Microsystems
+    Adquirido por oracle en el 2010 para optimizar soluciones poe ejemplo
+      Oracle Exadata Database Machine X2-8
+        (Deployment faster than others)
+        (prevesible, confianza, un alto performance en el reloj)
+        
+  IDE desarrollo /*Eclipse*/
+  
+  Sintaxis para programas simples
+  
+  Vision general de la plataforma
+  Sistemas empresariales heterogéneos
+  
+  El lenguaje Java
+    API de Java
+//////// Java doc de forma predeterminada con tres marcos 
+Utilidad de Oracle para la generacion de documentación de API´s en formato HTML apartir de codigo fuengte JAVA
+    Marco principal(a la derecha) dettalles del paquete o de la clase seleccionada
+    Marco (superior izquierdo) todos los paquetes en la API
+    Marco (inferior izquierdo) clases en cada paquete
+    
+    Proporciona una API para crear 
+    doclets
+    clases que especifica contenido y formato
+    
+    taglets
+    API Taglet consta de una sola interfaz
+    programas escritos como etiquetas independientes, tales como @todo, o etiquetas en linea , como {@underline}
+    
+_:;
