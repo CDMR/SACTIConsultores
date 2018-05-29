@@ -59,4 +59,56 @@ Java SE (Standar Edition) Deevelopment Kit
    ver imagen uno obtenida de https://www.youtube.com/watch?v=PrNeKnIqjZE
 
 ////Kit de desarrollo de Java
-    Verificar documentacion de API JDK //http://www.oracle.com/technetwork/java/javase/documentation/api-jsp-136079.html
+    Verificar documentacion de API JDK https://docs.oracle.com/javase/8/docs/api/index.html
+                                       https://docs.oracle.com/javase/8/docs/index.html
+    Se divide en tres perfiles
+    
+   Compact 1
+    Packages
+    Java.io
+    java.lang
+    java.lang.invoke
+    java.lang.ref
+    java.lang.reflect
+    java.math
+    java.net
+    java.nio
+    java.nio.chanels
+    java.nio.chanels.spi
+    java.nio.charset
+    java.nio.charset.spi
+    java.nio.file
+    java.nio.file.attrubute
+    java.nio.file.spi
+    java.security
+    java.security.cert
+    java.security.interfaces
+    java.security.spec
+    java.text
+    java.text.spi
+    java.time
+    java.time.chrono
+    java.time.format
+    java.time.zone
+    java.util
+    java.util.concurrent
+    java.util.concurrent.atomic
+    java.util.concurrent.locks
+    java.util.function
+    java.util.jar
+    java.util.logging
+    java.util.regex
+    java.util.spi
+    java.util.stream
+    java.util.zip
+    javax.crypto
+    javax.crypto.interfaces
+    javax.crypto.spec
+    javax.net
+    javax.net.ssl
+    
+   Compact 2
+    Packages
+   Compact 3
+    Packages
+    
