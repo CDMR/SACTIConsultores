@@ -157,7 +157,21 @@ Obsérvese que, en las signaturas de las clases Libro y Cuadro, mediante la pala
 De modo que, en este ejemplo, tanto los atributos (titulo y autor) como los métodos (setTitulo, setAutor y getAtributos) definidos en la superclase Obra son también considerados miembros de las subclases Libro y Cuadro.
 
 Por otra parte, las subclases pueden añadir nuevos atributos y/o métodos. En este caso, la subclase Libro incorpora un atributo (numeroDePaginas) y la subclase Cuadro incorpora dos atributos (largo y alto).
+
 https://www.abrirllave.com/java/subclases-y-superclases.php
+
 ////Polimorfismo
-
-
+    Habilidad de una funcion, metodo, variable u objeto de poseer varias formas distintas
+    Capacidad de los objetos que pertenecen a la misma clase de responder a un mismo mensaje o evento en funcion de los parametros utilizados 
+    utilizados durente su invocacion
+    
+   Tambien conocido como sobrecarga de parametros
+   
+   4 formas de polimorfismo en java:
+   Polimorfismo de asignacion
+   Un objeto de la clase padre guarda la instacia de una clase hija
+   Es el mas relacionado con el enlace dinamico
+   Una variable (clase,interfaces...) referenciada puede hacer referencia a mas de un tipo de clases. El conjunto de las que pueden ser referenciadas esta resytringudo por la herencia o la implementacion
+   para sobreescribir un metodo heredado se uriliza la sintaxis /*@Override*/
+   
+    ver https://www.youtube.com/watch?v=RXcUTWczbag
