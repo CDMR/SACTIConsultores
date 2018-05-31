@@ -1,3 +1,3 @@
 # ConsultoresSACTI
-Repositorios para Consultores SACTI
+Repositorios (Notas) Consultores SACTI
  IBMTutorial-java
