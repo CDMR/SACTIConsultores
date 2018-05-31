@@ -175,3 +175,58 @@ https://www.abrirllave.com/java/subclases-y-superclases.php
    para sobreescribir un metodo heredado se uriliza la sintaxis /*@Override*/
    
     ver https://www.youtube.com/watch?v=RXcUTWczbag
+////Palabras reservadas
+
+        Como cualquier lenguaje de programación, el lenguaje Java designa ciertas palabras que el compilador reconoce como especiales y, como tales, usted no tiene permitido usarlas para nombrar sus construcciones Java. La lista de palabras reservadas es sorprendentemente corta:
+
+        abstracto
+        afirmar
+        booleano
+        interrupción
+        byte
+        caso
+        capturar
+        caract.
+        clase
+        const.
+        continuar
+        predeterminado
+        hacer
+        doble
+        else
+        enumer.
+        extiende
+        final
+        finalmente
+        flotante
+        para
+        ir a
+        si
+        implementa
+        importar
+        instancia de
+        int
+        interfaz
+        largo
+        nativo
+        nuevo
+        paquete
+        privado
+        protegido
+        público
+        retorno
+        corto
+        estático
+        strictfp
+        súper
+        conmutador
+        sincronizado
+        esto
+        arrojar
+        arroja
+        transitorio
+        intentar
+        inválido
+        volátil
+        mientras 
+   
