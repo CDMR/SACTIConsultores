@@ -1,11 +1,4 @@
-/**
- * 
- */
-
-/**
- * @author Desarrollador1
- *
- */
+/*Desarrollador: Carlos Daniel Marceleño Rodriguez*/
 public class Civil extends BE{
 
 	protected Civil(String nombre,String region) {
