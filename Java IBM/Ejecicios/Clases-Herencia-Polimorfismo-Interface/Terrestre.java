@@ -1,11 +1,5 @@
-/**
- * 
- */
+/*Desarrollador: Carlos Daniel Marceleño Rodriguez*/
 
-/**
- * @author Desarrollador1
- *
- */
 public class Terrestre extends Militar {
 
 		protected Terrestre(String conflicto, String nombre, String region) {
