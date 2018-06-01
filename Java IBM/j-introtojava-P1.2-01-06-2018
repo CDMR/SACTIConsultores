@@ -31,3 +31,4 @@
     Paquetes reservados (java.*,javax.*...) 
     El nombre equivale a una estructura de ficheros 
     com.dominio_empresa.utilidades
+    para este caso la estryctura se realiza la siguiente estructura "SACTI.Consultores.Demo"
