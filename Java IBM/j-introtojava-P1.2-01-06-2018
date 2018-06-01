@@ -23,5 +23,11 @@
     para identifficar una construccion de manera unica debe calificarla totalmente al incluir su espacio de nombres
     Tutorials points
     Package 
-    Los paquetes son usados en java para prevenir conflictos de nombre, controlar el acceso, 
+    Los paquetes son usados en java para prevenir conflictos de nombre, controlar el acceso
     
+    Son opcinales-// si no se define el nombre se asigna por default
+    Paquete por fichero de codigo Java.
+    
+    Paquetes reservados (java.*,javax.*...) 
+    El nombre equivale a una estructura de ficheros 
+    com.dominio_empresa.utilidades
