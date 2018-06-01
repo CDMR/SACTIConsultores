@@ -6,7 +6,6 @@ public class Trabajadora extends Civil {
 	 */
 	public Trabajadora(String nombre, String region) {
 		super(nombre, region);
-		// TODO Auto-generated constructor stub
 	}
 
 }
