@@ -32,3 +32,8 @@
     El nombre equivale a una estructura de ficheros 
     com.dominio_empresa.utilidades
     para este caso la estryctura se realiza la siguiente estructura "SACTI.Consultores.Demo"
+    
+////Sentencias de importacion
+	Se encarga de comunicar al compilador donde encontrar las clases referenciadas en el codigo
+	Ejemplo:
+	import ClassNameToImport;
