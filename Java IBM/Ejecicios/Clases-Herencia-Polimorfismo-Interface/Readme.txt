@@ -1,1 +1,1 @@
-
+En este Ejercicio se hace un proyecto desambiguo el cual contiene una clase padre BE implementacion de la interface reactable, las clases Militar y Civil se extienden de la clase BE a su vez esta clase extienden clases hijas
