@@ -1,11 +1,4 @@
-/**
- * 
- */
-
-/**
- * @author Desarrollador1
- *
- */
+/*Desarrollador: Carlos Daniel Marceleño Rodriguez*/
 abstract class BE implements reactable{
 	private String nombre;
 	private String region;
