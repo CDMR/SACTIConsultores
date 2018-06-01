@@ -1,11 +1,3 @@
-/**
- * 
- */
-
-/**
- * @author Desarrollador1
- *
- */
 public class Trabajadora extends Civil {
 
 	/**
