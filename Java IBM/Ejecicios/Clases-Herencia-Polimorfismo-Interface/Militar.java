@@ -1,11 +1,4 @@
-/**
- * 
- */
-
-/**
- * @author Desarrollador1
- *
- */
+/*Desarrollador: Carlos Daniel Marceleño Rodriguez*/
 class Militar extends BE {
 	private String conflicto;
 
