@@ -1,6 +1,7 @@
 //////////
 Interface (misma nomenglatura que las clases y en muchos acsos acaba en able [capaz de])
-En java un interfaz define la lista de métodos, pero para que una clase posea un interfaz hay que indicar explícitamente que lo implementa mediante la claúsula implements. Pero veamos primero la estructura de un interfaz:
+En java un interfaz define la lista de métodos, pero para que una clase posea un interfaz hay que indicar explícitamente que lo implementa
+mediante la claúsula implements. Pero veamos primero la estructura de un interfaz:
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
           [modif.visibilidad] interface nombreInterfaz [extends listaInterfaces]
          {
@@ -16,7 +17,7 @@ Implements
 
 ////Empaquettado  de Objetos
     en ocaciones se utiliza el mismo termino para expresar dos conceptos ligeramente diferentes
-    conocido como clision de nombres 
+    conocido como colision de nombres 
     Es un area encapsulada en donde los nombres son unicos pero, fuera de esa aerea puede que no lo sean, 
     para identifficar una construccion de manera unica debe calificarla totalmente al incluir su espacio de nombres
     Tutorials points
