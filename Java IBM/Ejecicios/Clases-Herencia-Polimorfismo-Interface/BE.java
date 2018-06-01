@@ -40,5 +40,7 @@ abstract class BE implements reactable{
 	public void setRegion(String region) {
 		this.region = region;
 	}
-
+	public String getPerturbacion() {
+		return perturbacion;
+	}
 }
