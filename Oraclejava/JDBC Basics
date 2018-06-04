@@ -1,0 +1,31 @@
+Getting Started
+  Establece un ambiente basico para el desrrollo de DB y mostrara como puedes compilar y ejecutar la JDBC
+Processing SQL Statements with JDBC with JDBC /*Statements: Declaraciones*/
+  Establishing a Connection
+  Connecting with DataSouuce Objets
+  Handling SQLExceptions /*Handling: Manejo*/
+  Setting Up Tables
+  Retrieving and Modify Values from Result Sets /*Retrieving: recuperando*/
+  Using Prepared Statements
+  Using Transactions
+Using RowSet Objets
+  Using JdbcRowSet Objets
+  Using CachedRowSetObjets
+  Using JoinRowSet Objects
+  Using FilteredRowSet Objets
+  Using WebRowSet Objets
+Using Advanced Data Types
+  Using Large Objects
+  Using SQLXML Objets
+  Using Array Objects
+  Using DISTINCT Data Type
+  Using Structured Objects
+  Using Customized Type Mappings
+  Using Datalink Objets
+  Using Rowld Objets
+Using Stored Procedures
+  Create and use a stored procedure/*procedure: procedimiento* / es un conjunto dde declaraciones en SQL que puedes ser llamadas en Java como un metodo con variable de entrada y salida
+ Using JDBC with GUI API
+  Demuestra como integrar JDBC with the Swing API
+    Swing implementa una serie de componentes para crear GUI´s
+Fuente : "https://docs.oracle.com/javase/tutorial/jdbc/basics/index.html"
