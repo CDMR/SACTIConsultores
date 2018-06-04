@@ -34,10 +34,12 @@ Pasos:
         http://xml.apache.org/xalan-j/
    
   Descargar el codigo de ejemplo
-  
-  
+  https://docs.oracle.com/javase/tutorial/jdbc/basics/examples/zipfiles/JDBCTutorial.zip
+ 
   Modificar el archivo build.xml
-  Modificar el archivo properties/javadb-sample-properties.xml o properties/mysql-sample-properties.xml /*AITHER: Ya sea*/
+  
+  
+  Modificar valor del archivo aproperties/javadb-sample-properties.xml o properties/mysql-sample-properties.xml /*AITHER: Ya sea*/. 
   Compile and package the samples 
   Create databases, tables, and pulate tables
   Ejecutar los ejemplos
