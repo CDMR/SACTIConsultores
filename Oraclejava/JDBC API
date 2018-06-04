@@ -1,4 +1,5 @@
-JDB es ligada con dos paquetes 
+Fuente: /*https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/index.html*/
+JDBC es ligada con dos paquetes 
 java.sql
 javax.sql
 Se descargan los 2 paquetes cuando se descarga el Java SE
