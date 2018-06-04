@@ -9,24 +9,37 @@ Java SE 8
 Components: core-libs
 Sub-Component: java.sql:bridge
 Synopsis: The JDBC-ODBC Bridge has been removed
-/**ODBC 
-  Es un estandar de acceso a las bases de datos desarrollado por SQL Acces Group 
-  Se encarga de gtraducir las consultas de datos de la aplicacion en comandos que el DBSM entienda
-  /**
-  DBMS 
-  Sistema de Gestion de Base de Datos
-    Conjunto de programas que permiten el almacenamiento, modificacion y extraccion de la informacion en una base de datos
-    Proporciona Herramientas añadir, borrar, madificar y analizar datos.
-    Métodos para mantener la integridad de los datos, administrar el acceso a los datos y para recuperar la informacion si el sistema se corromp
-   **/
-**/
-
+          /**ODBC 
+            Es un estandar de acceso a las bases de datos desarrollado por SQL Acces Group 
+            Se encarga de gtraducir las consultas de datos de la aplicacion en comandos que el DBSM entienda
+            /**
+            DBMS 
+            Sistema de Gestion de Base de Datos
+              Conjunto de programas que permiten el almacenamiento, modificacion y extraccion de la informacion en una base de datos
+              Proporciona Herramientas añadir, borrar, madificar y analizar datos.
+              Métodos para mantener la integridad de los datos, administrar el acceso a los datos y para recuperar la informacion si el sistema se corromp
+             **/
+          **/
 
 Components: core-libs
 Sub-Component: java.sql
 Synopsis:JDBC 4.2 introducing the following features
+          Adition of REF_CURSOR support
+            /**Fuente: https://www.enterprisedb.com/docs/en/9.4/eeguide/Postgres_Plus_Enterprise_Edition_Guide.1.098.html
+                PL/SQL variable
+            **/
+            /**Oracle RDBMS on Windows
+                Windows a incrementado el numero de despliegue de DB Applicatios
+                El reto es hacerlo accesible para ser considerable
+                Las aplicaciones deben sumiltaneamente entregar un alto performance,reliability, and scalability
+                TCO/**
+                Costo total de propiedad
+                    /**Purchase Price
+                    El precio de un inversor paga a un inversionado se convierte en el costo base del inversor
+                    **/
+                **/
+            **/
 
-Adition of REF_CURSOR support
 
 Addition of the java.sql.DriverAction Interface
 Addition of the security check on deregisterDriver Method in DriverManager Class
