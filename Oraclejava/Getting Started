@@ -1,0 +1,14 @@
+Coffee beans are sold by the pound and brewed coffee is sold by the cup
+  /*sold: vendido, pound: libra, brewed: prepara*/ 
+Pasos:
+  Instalar la ultima version de Java SE SDK en tu computadora
+  Instalar tu DBMS (database management system),(Java DB, MySQL...) de ser necesario
+  Instalar JDBC driver proveniente del vendedor de tu DB
+  Instalar Apache Ant
+  Instalar Apache Xalan
+  Descargar el codigo de ejemplo
+  Modificar el archivo build.xml
+  Modificar el archivo properties/javadb-sample-properties.xml o properties/mysql-sample-properties.xml /*AITHER: Ya sea*/
+  Compile and package the samples
+  Create databases, tables, and pulate tables
+  Ejecutar los ejemplos
