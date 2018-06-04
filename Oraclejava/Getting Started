@@ -8,24 +8,34 @@ Pasos:
     Recomendable para Java DB Y MySQL
     
   Instalar JDBC driver proveniente del vendedor de tu Data Base
-    Si se utiliza Java DB viene con el Driver JDBC
-    Si se utiliza My SQL
-      se instala la ultima version de Conector/J  https://www.mysql.com/products/connector/
-    Existen muchas posibilidades de implementacion de JDBC drivers
-    Categorizadas en cuatro grupos:
-    Tipo1: Drivers que se implementan de la JDBC API como un mapeo para otra API de acceso de datos
-      como las ODBC (Open Database Conectivity). Drivers de este tipo son generalmente dependientes de una libreria nativa, lo que limita su portabilidad
-      The JDBC-ODBC Bridge es un ejemplo de los Drivers Tipo 1 
-      JDBC-ODBC Bridge debe ser considerado una solucion trasitoria. no es soportado por Oracle, cosiderar utilizarlo solo si tu DBMS no brinda Java-only JDBC driver
-    Tìpo2: Drivers que son parcialmente escritos en Java y parte en codigo nativo. Estos drivers usan a native client library specific to the data sourse to wich they connect.
-      Oracle´s OCI (Oracle Call Interface) is an application programming interface that lets you create applications that use function call an Oracle data base and control all phases of SQLstatement execution
-      OCI supports the data types, calling conventions, syntax, and semantics of C and C++
-    Tipo3: Drivers that use pure Java and comunicate whith a middleware server using database-independent protocol. The middleware server then comunicates the client´s request to the data sourcce
-    Tipo4: Driver que son puros dde Java y se implementa un protocolo de red para uuna especifica fuente de datos. El cliente se conecta directamente a la base de datos
+      Si se utiliza Java DB viene con el Driver JDBC
+      Si se utiliza My SQL
+        se instala la ultima version de Conector/J  https://www.mysql.com/products/connector/
+      Existen muchas posibilidades de implementacion de JDBC drivers
+      Categorizadas en cuatro grupos:
+      Tipo1: Drivers que se implementan de la JDBC API como un mapeo para otra API de acceso de datos
+        como las ODBC (Open Database Conectivity). Drivers de este tipo son generalmente dependientes de una libreria nativa, lo que limita su portabilidad
+        The JDBC-ODBC Bridge es un ejemplo de los Drivers Tipo 1 
+        JDBC-ODBC Bridge debe ser considerado una solucion trasitoria. no es soportado por Oracle, cosiderar utilizarlo solo si tu DBMS no brinda Java-only JDBC driver
+      Tìpo2: Drivers que son parcialmente escritos en Java y parte en codigo nativo. Estos drivers usan a native client library specific to the data sourse to wich they connect.
+        Oracle´s OCI (Oracle Call Interface) is an application programming interface that lets you create applications that use function call an Oracle data base and control all phases of SQLstatement execution
+        OCI supports the data types, calling conventions, syntax, and semantics of C and C++
+      Tipo3: Drivers that use pure Java and comunicate whith a middleware server using database-independent protocol. The middleware server then comunicates the client´s request to the data sourcce
+      Tipo4: Driver que son puros dde Java y se implementa un protocolo de red para uuna especifica fuente de datos. El cliente se conecta directamente a la base de datos
     
+    Verifica que tipo de driver encaja con tu DBMS. Java DB viene con  an Embedded driver and a Network Client Driver. MySQL Connector/J is a Type 4 driver
+  
   Instalar Apache Ant
+       para, hacer, compilar y correr JDBC  
+       http://ant.apache.org/
+       
   Instalar Apache Xalan
+        Los ejemplos de RSSFeedsTable.java which is described Using SQLXML Objects, requiere Apache Xalan si tu DBMS is Java DB
+        http://xml.apache.org/xalan-j/
+   
   Descargar el codigo de ejemplo
+  
+  
   Modificar el archivo build.xml
   Modificar el archivo properties/javadb-sample-properties.xml o properties/mysql-sample-properties.xml /*AITHER: Ya sea*/
   Compile and package the samples 
