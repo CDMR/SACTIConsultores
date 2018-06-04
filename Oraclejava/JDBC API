@@ -24,24 +24,33 @@ Synopsis: The JDBC-ODBC Bridge has been removed
 Components: core-libs
 Sub-Component: java.sql
 Synopsis:JDBC 4.2 introducing the following features
+
           Adition of REF_CURSOR support
-            /**Fuente: https://www.enterprisedb.com/docs/en/9.4/eeguide/Postgres_Plus_Enterprise_Edition_Guide.1.098.html
-                PL/SQL variable
-            **/
-            /**Oracle RDBMS on Windows
-                Windows a incrementado el numero de despliegue de DB Applicatios
-                El reto es hacerlo accesible para ser considerable
-                Las aplicaciones deben sumiltaneamente entregar un alto performance,reliability, and scalability
-                TCO/**
-                Costo total de propiedad
-                    /**Purchase Price
-                    El precio de un inversor paga a un inversionado se convierte en el costo base del inversor
-                    **/
-                **/
-            **/
-Addition of the java.sql.DriverAction Interface
-                    /** Es una interface para notificar a la clase DriveManager
-                    **/
-Addition of the security check on deregisterDriver Method in DriverManager Class
-Addition of the java.sql.SQLType Interface
-Addition of the javva.sql.JDBCType Enum
+                      /**Fuente: https://www.enterprisedb.com/docs/en/9.4/eeguide/Postgres_Plus_Enterprise_Edition_Guide.1.098.html
+                          PL/SQL variable
+                      **/
+                      /**Oracle RDBMS on Windows
+                          Windows a incrementado el numero de despliegue de DB Applicatios
+                          El reto es hacerlo accesible para ser considerable
+                          Las aplicaciones deben sumiltaneamente entregar un alto performance,reliability, and scalability
+                          TCO/**
+                          Costo total de propiedad
+                              /**Purchase Price
+                              El precio de un inversor paga a un inversionado se convierte en el costo base del inversor
+                              **/
+                          **/
+                      **/
+          Addition of the java.sql.DriverAction Interface
+                              /** Es una interface para notificar a la clase DriveManager
+                              JDBC puede elegir crear la implementacion DriverAction en una clase privada para evitar ser llamado directamente
+                                        El bloque de controladores de la JDBC debe se llamado static
+                                                                
+                              
+                              
+                              Normalmente se utilizan 4 interfaces (ResultSet,Connection,Statement,DataSource)
+                              
+                              **/
+          Addition of the security check on deregisterDriver Method in DriverManager Class
+
+          Addition of the java.sql.SQLType Interface
+          Addition of the javva.sql.JDBCType Enum
