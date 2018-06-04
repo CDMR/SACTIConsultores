@@ -26,6 +26,7 @@ Sub-Component: java.sql
 Synopsis:JDBC 4.2 introducing the following features
 
 Adition of REF_CURSOR support
+
 Addition of the java.sql.DriverAction Interface
 Addition of the security check on deregisterDriver Method in DriverManager Class
 Addition of the java.sql.SQLType Interface
