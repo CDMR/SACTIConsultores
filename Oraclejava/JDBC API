@@ -1,3 +1,8 @@
+Java Database Connectivity
+Es una API que permite la ejecucion de  operaciones sobre bases de datos
+Contiene una coleccion de Intefaces Java 
+          Metos de registro para declarar los tipos de localizadores a base de datos URL
+          
 Fuente: /*https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/index.html*/
 JDBC es ligada con dos paquetes 
 java.sql
