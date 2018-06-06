@@ -77,8 +77,17 @@ Decalaración de clase
                     Trabaja sobre el estado actual de la instancia y para cada instancia tendrán un resultado distinto
                     Cuando se declara un metodo sin utilizar la palabra reservada static se genera un metodo de instancia
                     Ejemplo
-                    Logger l = Logger.getLogger("NewLogger");
                     (La plataforma java incluye un paquete java.util.logging, un mecanismo de registro)
 Su primer Objeto en Java
+        Registro incorporado
+                mecanismo para juntar informacion de programa
+                entidades con nombres creados por el desarrollador por medio de una llamada al metodo estatico de la clase Logger
+                        import java.util.logging.Logger;
+                        //...
+                        Logger 1 = Logger.getLogger(getClass().getName());
+                
+                        
 
-Creacion de un paquete
+ç       Utilizacion de main() como un banco de pruebas
+                main()
+                        Es un metoodo especial que el desarrollador puede incluir en cualquier clase 
