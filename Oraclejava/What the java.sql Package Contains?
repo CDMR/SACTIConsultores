@@ -1,6 +1,7 @@
 El paquete de java sql contiene API para lo siguiente
+The material in this chapter is based on JDBCtm API Tutorial and Reference, Second Edition: Universal Data Access for the Javatm 2 Platform, published by Addison Wesley as part of the Java series, ISBN 0-201-43328-1
   Hacer la coneccion con la base de datos por medio de DriversManager
     Un Driver Manager es una clase normalmente controlada por la "capa" de JDBC
     Trabajando entre el usuaario y los drivers
     Esto mantiene la coneccion con los Drivers que son disponibles para establecer una coneccion entre la base de datos y el driver apropiado /*available: disponibles, track:pista, handles*/
-    Ademas la clase DriverManager atiende otras cosas como los limites de tiempo de entrada del driver, imprimir el inicio de secion, trazando mensajes 
+    Ademas la clase DriverManager atiende otras cosas como los limites de tiempo de entrada del driver, imprimir el inicio de secion y el rastreo mensajes /*tracing: rastreo*/
