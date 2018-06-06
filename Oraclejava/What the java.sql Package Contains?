@@ -1,2 +1,6 @@
 El paquete de java sql contiene API para lo siguiente
-  Hacer la coneccion con la base de datos por medio de DrversManager
+  Hacer la coneccion con la base de datos por medio de DriversManager
+    Un Driver Manager es una clase normalmente controlada por la "capa" de JDBC
+    Trabajando entre el usuaario y los drivers
+    Esto mantiene la coneccion con los Drivers que son disponibles para establecer una coneccion entre la base de datos y el driver apropiado /*available: disponibles, track:pista, handles*/
+    Ademas la clase DriverManager atiende otras cosas como los limites de tiempo de entrada del driver, imprimir el inicio de secion, trazando mensajes 
