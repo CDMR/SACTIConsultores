@@ -1,21 +1,41 @@
 Cadenas y Operadores
   Cadenas
+  En lenjuage Java las cadenas son objetos de primera clase, tipo String
+    con sus respectivos metodos para ser manejados
+    Creacion de una instancia de tipo (o perteneciente a la clase) String
+      private String name;
+      public String getName(){ return name; }
+      String greeting = "hello";
+      greeting = new String("hello");
+    
     Concatenación de cadenas
+      Enlace de cadenas que guardan entre si una relacion logica o de causa y efecto
+      Union o sucesion de dos o mas Objetos entre si formando un conjunto o una idea coherente y progresiva      
     Ejemplo
-    Encadenamiento de llamadas de metodos
-  Operadores
-  Operadores condicionales y sentencias de control
-  Operadores relacionales y condicionales
+    l.info("Name: "+ p.getName());/*El signo "+" concatena dos strings*/
+      Encadenamiento de llamadas de metodos
+      public String getName() {
+      return firstName.concat(" ").concat(lastName);
+      }
+      /*Tecnica comunmente utilizada para con Objetos inmutables (Operaa sobre el valor cambiado de retorno)
+        Los Objetos inmutables son aquellos que no piueden cambiar su estado ya quee sus atributos han sido definidos cono final para proytegerse frente a cambios de codigo
+      */
+  
+ Operadores
+    Operadores condicionales y sentencias de control
+    Operadores relacionales y condicionales
     Sentencia if
     Ambito Variable
     La sentencia else
     El operador ternario
+
 Bucles
   for
   while
   do-while
   Ramificacion del bucle
   Continuacion del bucle
+
 Colecciones Java
   Matrices
   Declaracion de una matriz
@@ -24,17 +44,28 @@ Colecciones Java
   El indice de elemtos
   El metodo length
   Matriz de objetos
+
 Ensamblaje y desembalaje
 Embalaje automatico y desembalaje automatico
+
 Analisis y conversion de tipos embalados
+
 Listas
+
 Tipo formal
+
 Iterable
+
 Conjuntos
+
 Mapas
+
 Archivo del codigo Java
+
 JAR
+
 Uso de aplicaciones de terceros
+
 Escribir un buen codigo en Java
 Mantener pequeñas clases
 Nombre metodos con cuidado
