@@ -1,1 +1,11 @@
-
+La API soporta dos modelos de procesamiento para el acceso a la Base de datos
+   En el "two-tier model"
+    La applet o aplicacion llama directamente a la fuente de datos. Esto requiere un driver de la JDBC que pueda comunicarse la fuente que esta dando acceso a los datos
+    Los comandos del usuario son entregados a la base de datos, y los resultados de estas declaraciones son enviados de vuelta al usuario
+    La fuente de datos puede estar localizada en otra maquina a la que el usuario conectara via internet
+      Lo anterior hace referencia a la configuracion Cliente/Servidor donde el usuario de la maquina interactua como el cliente
+    
+    En el "three-tier model"
+      Los comandos son enviados aun middle tier de servicio, el cual envia los comandos a la fuente de datos. La fuente de datos procesa el comando y envia los resultados a el middle tier
+      El middle tier envia los resultados al usuario
+      
