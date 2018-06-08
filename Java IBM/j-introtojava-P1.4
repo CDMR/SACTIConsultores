@@ -102,11 +102,102 @@ Cadenas y Operadores
         }
 
 Bucles
+  
   for
+  for (initialization; loopWhileTrue; executeAtBottomOfEachLoop) {
+  statementsToExecute
+  }
+  Ejemplo:
+  public static void main(String[] args) {
+      Logger l = Logger.getLogger(Person.class.getName());
+      for (int aa = 0; aa < 3; aa++) {
+        Person p = new Person("Joe Q Author", 42, 173, 82, "Brown", "MALE");
+        l.info("Loop executing iteration# " + aa);
+        l.info("Name: " + p.getName());
+        l.info("Age:" + p.getAge());
+        l.info("Height (cm):" + p.getHeight());
+        l.info("Weight (kg):" + p.getWeight());
+        l.info("Eye Color:" + p.getEyeColor());
+        l.info("Gender:" + p.getGender());
+      }
+    }
+  /**Class Logger
+  java.lang.Object
+  java.util.logging.Logger
+  extends Object
+  Esta clase es utilizada para enviar mensajes a un sistema en especifico
+  El nombre puede ser arbitrario pero es recomendable que sea relacionado en el nombre del paquete, clase, del componente a logger
+  Es posible Crear loggers Anonimos que no se guardan en en espacio de los nombres Logger
+  **/
+  
   while
+  public static void main(String[] args) {
+      Logger l = Logger.getLogger(Person.class.getName());
+      int aa = 0;
+      while (aa < 3) {
+        Person p = new Person("Joe Q Author", 42, 173, 82, "Brown", "MALE");
+        l.info("Loop executing iteration# " + aa);
+        l.info("Name: " + p.getName());
+        l.info("Age:" + p.getAge());
+        l.info("Height (cm):" + p.getHeight());
+        l.info("Weight (kg):" + p.getWeight());
+        l.info("Eye Color:" + p.getEyeColor());
+        l.info("Gender:" + p.getGender());
+        aa++;
+      }
+  
   do-while
+  int aa = 0;
+    do {
+      Person p = new Person("Joe Q Author", 42, 173, 82, "Brown", "MALE");
+      l.info("Loop executing iteration# " + aa);
+      l.info("Name: " + p.getName());
+      l.info("Age:" + p.getAge());
+      l.info("Height (cm):" + p.getHeight());
+      l.info("Weight (kg):" + p.getWeight());
+      l.info("Eye Color:" + p.getEyeColor());
+      l.info("Gender:" + p.getGender());
+      aa++;
+    } while (aa < 3);
+  
   Ramificacion del bucle
+      Sentencia break
+      public static void main(String[] args) {
+      Logger l = Logger.getLogger(Person.class.getName());
+      int aa = 0;
+      while (aa < 3) {
+        if (aa == 1)
+          break;
+        Person p = new Person("Joe Q Author", 42, 173, 82, "Brown", "MALE");
+        l.info("Loop executing iteration# " + aa);
+        l.info("Name: " + p.getName());
+        l.info("Age:" + p.getAge());
+        l.info("Height (cm):" + p.getHeight());
+        l.info("Weight (kg):" + p.getWeight());
+        l.info("Eye Color:" + p.getEyeColor());
+        l.info("Gender:" + p.getGender());
+        aa++;
+      }
+      
   Continuacion del bucle
+    Sentencia continue
+      public static void main(String[] args) {
+      Logger l = Logger.getLogger(Person.class.getName());
+      int aa = 0;
+      while (aa < 3) {
+        if (aa == 1)
+          continue;
+        else
+          aa++;
+        Person p = new Person("Joe Q Author", 42, 173, 82, "Brown", "MALE");
+        l.info("Loop executing iteration# " + aa);
+        l.info("Name: " + p.getName());
+        l.info("Age:" + p.getAge());
+        l.info("Height (cm):" + p.getHeight());
+        l.info("Weight (kg):" + p.getWeight());
+        l.info("Eye Color:" + p.getEyeColor());
+        l.info("Gender:" + p.getGender());
+      }
 
 Colecciones Java
   Matrices
