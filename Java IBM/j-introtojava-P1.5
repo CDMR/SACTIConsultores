@@ -23,7 +23,16 @@ Colecciones Java
       }
   
   Carga una Matriz
+    Logger l = Logger.getLogger("Test");
+    for (int aa = 0; aa < integers.length; aa++) {
+      l.info("This little integer's value is: " + integers[aa]);
+    }
     
+    Para JDK 5    
+    Logger l = Logger.getLogger("Test");
+    for (int i : integers) {
+      l.info("This little integer's value is: " + i);
+    }
     
   El indice de elemtos
   El metodo length
