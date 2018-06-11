@@ -1,4 +1,6 @@
-/*Desarrollador: Carlos Daniel Marceleño Rodriguez*/
+package EHCPI;
+/*Desarrolador: Carlos Daniel Marceleño*/
 public interface reactable {
-	public void reaccionar(String perturbacion); 	
+	public void reaccionar();
+	public void perturbar(String perturbacion);
 }
