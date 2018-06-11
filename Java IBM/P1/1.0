@@ -1,0 +1,322 @@
+#j-introtojava
+Parte 1
+Java SE (Standar Edition) Deevelopment Kit
+  JDK
+  Es una herramienta de desarrollo que incluye Java Runtime Environment, el compilador y las API de java.
+   Sun Microsystems
+    Adquirido por oracle en el 2010 para optimizar soluciones poe ejemplo
+      Oracle Exadata Database Machine X2-8
+        (Deployment faster than others)
+        (prevesible, confianza, un alto performance en el reloj)
+        
+  IDE desarrollo /*Eclipse*/
+  
+  Sintaxis para programas simples
+  
+  Vision general de la plataforma
+  Sistemas empresariales heterogéneos
+  
+  ///////////////////El lenguaje Java/////////////////////////////////////////////////
+////API de Java
+    Java doc de forma predeterminada con tres marcos 
+    Utilidad de Oracle para la generacion de documentación de API´s en formato HTML apartir de codigo fuengte JAVA
+    Marco principal(a la derecha) dettalles del paquete o de la clase seleccionada
+    Marco (superior izquierdo) todos los paquetes en la API
+    Marco (inferior izquierdo) clases en cada paquete
+    
+    Proporciona una API para crear 
+    doclets
+    clases que especifica contenido y formato
+    
+    taglets
+    API Taglet consta de una sola interfaz
+    programas escritos como etiquetas independientes, tales como @todo, o etiquetas en linea , como {@underline}
+    
+    
+////Estructura con paquetes 
+  Paquete (mecanismo de espacio de nombres)
+        {
+        Clases (métodos, variables, constantes...)}
+   Reglas de sintaxis parecidas a las de C
+   Paradigma de programacion orientaddo a objetos ////OOP////
+   
+/////Compilador de Java
+  Se escibe los codigos en .java y luego se compilan, se revvisa la sintaxis del lenguage, escribe los codigos byte (intrucciones ejecutadas en Java Virtual Machine) en archivos .class
+
+////JVM (Java Virtual Machine)
+  La JVM es el corazón del principio "escrito una vez, ejecutado en cualquier lugar" su código se puede ejecutar en cualquier chipset, 
+  disponibles para plataformas principales como Linux y Windows y se han implementado subconjuntos del lenguaje Java en las JVM para teléfonos móviles y aficionados de chips.
+
+////Recolector de Basura /// Garbage Collector//Gestion de memoria implicita
+
+   JVM asigna automaticamente espacio en memoria para alojar los Objetos creados java (heap)
+   Recolector de basura se ejcuta en segundo plano y realiza la inspeccion de los objetos que la aplicacion ya no necesita y recupera la memoria
+   
+   En C tienes la capacidad de elegir si el objeto se va a crear en la memoria dinámica (heap) o en la pila del programa (stack)
+   Almacenamiento dinamico
+   stack
+   Valores tradicionales: int, float, double, char
+   ver imagen uno obtenida de https://www.youtube.com/watch?v=PrNeKnIqjZE
+
+////Kit de desarrollo de Java
+    Verificar documentacion de API JDK https://docs.oracle.com/javase/8/docs/api/index.html
+                                       https://docs.oracle.com/javase/8/docs/index.html
+    Se divide en tres perfiles
+    
+   Compact 1
+    Packages
+    java.io
+    java.lang
+    java.lang.invoke
+    java.lang.ref
+    java.lang.reflect
+    java.math
+    java.net
+    java.nio
+    java.nio.channels
+    java.nio.channels.spi
+    java.nio.charset
+    java.nio.charset.spi
+    java.nio.file
+    java.nio.file.attribute
+    java.nio.file.spi
+    java.security
+    java.security.cert
+    java.security.interfaces
+    java.security.spec
+    java.text
+    java.text.spi
+    java.time
+    java.time.chrono
+    java.time.format
+    java.time.zone
+    java.util
+    java.util.concurrent
+    java.util.concurrent.atomic
+    java.util.concurrent.locks
+    java.util.function
+    java.util.jar
+    java.util.logging
+    java.util.regex
+    java.util.spi
+    java.util.stream
+    java.util.zip
+    javax.crypto
+    javax.crypto.interfaces
+    javax.crypto.spec
+    javax.net
+    javax.net.ssl
+    javax.script
+    javax.security.auth
+    javax.security.auth.callback
+    javax.security.auth.login
+    javax.security.auth.spi
+    javax.security.auth.x500
+    javax.security.cert
+    
+   Compact 2
+    Packages
+    java.io
+    java.lang
+    java.lang.annotation////*////
+    java.lang.invoke
+    java.lang.ref
+    java.lang.reflect
+    java.math
+    java.net
+    java.nio
+    java.nio.chanels
+    java.nio.chanels.spi
+    java.nio.charset
+    java.nio.charset.spi
+    java.nio.file
+    java.nio.file.attrubute
+    java.nio.file.spi
+    java.rmi////*////
+    java.rmi.activation////*////
+    java.rmi.dgc////*////
+    java.rmi.registry////*////
+    java.rmi.server////*////
+    java.security
+    java.security.cert
+    java.security.interfaces
+    java.security.spec
+    java.sql////*////
+    java.text
+    java.text.spi
+    java.time
+    java.time.chrono
+    java.time.format
+    java.time.zone
+    java.util
+    java.util.concurrent
+    java.util.concurrent.atomic
+    java.util.concurrent.locks
+    java.util.function
+    java.util.jar
+    java.util.logging
+    java.util.regex
+    java.util.spi
+    java.util.stream
+    java.util.zip
+    javax.crypto
+    javax.crypto.interfaces
+    javax.crypto.spec
+    javax.net
+    javax.net.ssl
+    javax.script
+    javax.security.auth
+    javax.security.auth.callback
+    javax.security.auth.login
+    javax.security.auth.spi
+    javax.security.auth.x500
+    javax.security.cert
+    *//////////*////////*
+    javax.sql
+    javax.transaction
+    javax.transaction.xa
+    javax.xml
+    javax.xml.datatype
+    javax.xml.namespace
+    javax.xml.parsers
+    javax.xml.stream
+    javax.xml.stream.events
+    javax.xml.stream.util
+    javax.xml.transform
+    javax.xml.transform.dom
+    javax.xml.transform.sax
+    javax.xml.transform.stax
+    javax.xml.transform.stream
+    javax.xml.validation
+    javax.xml.xpath
+    org.w3c.dom
+    org.w3c.dom.bootstrap
+    org.w3c.dom.events
+    org.w3c.dom.ls
+    org.w3c.dom.views
+    org.xml.sax
+    org.xml.sax.ext
+    org.xml.sax.helpers
+    
+   Compact 3
+    Packages
+    java.io
+    java.lang
+    java.lang.annotation////*////
+    java.lang.instrument////+////
+    java.lang.invoke
+    java.lang.management////+////
+    java.lang.ref
+    java.lang.reflect
+    java.math
+    java.net
+    java.nio
+    java.nio.chanels
+    java.nio.chanels.spi
+    java.nio.charset
+    java.nio.charset.spi
+    java.nio.file
+    java.nio.file.attribute
+    java.nio.file.spi
+    java.rmi////*////
+    java.rmi.activation////*////
+    java.rmi.dgc////*////
+    java.rmi.registry////*////
+    java.rmi.server////*////
+    java.security
+    java.security.cert
+    java.security.interfaces
+    java.security.spec
+    java.sql////*////
+    java.text
+    java.text.spi
+    java.time
+    java.time.chrono
+    java.time.format
+    java.time.zone
+    java.util
+    java.util.concurrent
+    java.util.concurrent.atomic
+    java.util.concurrent.locks
+    java.util.function
+    java.util.jar
+    java.util.logging
+    java.util.prefs////+////
+    java.util.regex
+    java.util.spi
+    java.util.stream
+    java.util.zip
+    javax.annotation.processing////+////
+    javax.crypto
+    javax.crypto.interfaces
+    javax.crypto.spec
+    javax.lang.model////+////
+    javax.lang.model.element////+////
+    javax.lang.model.type////+////
+    javax.lang.model.util////+////
+    javax.management////+////
+    javax.management.loading////+////
+    javax.management.modelmbean////+////
+    javax.management.monitor////+////
+    javax.management.openmbean////+////
+    javax.management.relation////+////
+    javax.management.remote////+////
+    javax.management.remote.rmi////+////
+    javax.management.timer////+/////
+    javax.naming////+////
+    javax.naming.directory////+////
+    javax.naming.event////+////
+    javax.naming.ldap////+////
+    javax.naming.spi////+////
+    javax.net
+    javax.net.ssl
+    javax.rmi.ssl////+////
+    javax.script
+    javax.security.auth
+    javax.security.auth.callback
+    javax.security.auth.kerberos////+////
+    javax.security.auth.login
+    javax.security.auth.spi
+    javax.security.auth.x500
+    javax.security.cert
+    javax.security.sasl////+////
+    //////////*////////*
+    javax.sql
+    javax.sql.rowset////+////
+    javax.sql.rowset.serial////+////
+    javax.sql.rowset.spi////+////
+    javax.tools////+////
+    javax.transaction
+    javax.transaction.xa
+    javax.xml
+    javax.xml.crypto////+////
+    javax.xml.crypto.dom////+////
+    javax.xml.crypto.dsig////+////
+    javax.xml.crypto.dsig.dom////+////
+    javax.xml.crypto.dsig.keyinfo////+////
+    javax.xml.crypto.dsig.spec////+////
+    javax.xml.datatype
+    javax.xml.namespace
+    javax.xml.parsers
+    javax.xml.stream
+    javax.xml.stream.events
+    javax.xml.stream.util
+    javax.xml.transform
+    javax.xml.transform.dom
+    javax.xml.transform.sax
+    javax.xml.transform.stax
+    javax.xml.transform.stream
+    javax.xml.validation
+    javax.xml.xpath
+    org.ietf.jgss////+////
+    org.w3c.dom
+    org.w3c.dom.bootstrap
+    org.w3c.dom.events
+    org.w3c.dom.ls
+    org.w3c.dom.views
+    org.xml.sax
+    org.xml.sax.ext
+    org.xml.sax.helpers
+    
+    
+  ////*+  https://docs.oracle.com/javase/8/docs/api/index.html +*////
