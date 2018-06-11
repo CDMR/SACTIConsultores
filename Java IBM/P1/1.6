@@ -1,0 +1,83 @@
+Listas
+  Una coleecion de Lista Java solo puede tener objetos y define un congtrato estricto sobre el comportamiento
+  Una lista es una interfaz por lo que no se puede crear instancias de ella directamente 
+  List<Object> listOfObjects = new ArrayList<Object>();
+
+Tipo formal
+   Ejemplo
+   ArrayList<Civil> R = new ArrayList<Civil>();
+		List<Tradicional> S1 = new ArrayList<Tradicional>();
+		List<Tecnica> S2 = new ArrayList<Tecnica>();
+		List<Serviciosemergentes> S3 = new ArrayList<Serviciosemergentes>();
+		List<Precariado> S4 = new ArrayList<Precariado>();
+		List<Nuevosricos> S5 = new ArrayList<Nuevosricos>();
+		List<Establecida> S6 = new ArrayList<Establecida>();
+		List<Acomodada> S7 = new ArrayList<Acomodada>();
+		List<Elite> S8 = new ArrayList<Elite>();
+				S1.add(new Tradicional("Carlos Daniel Marceleño Rodriguez","CDMX"));
+				S1.add(new Tradicional("Carlos Daniel Marceleño Rodriguez","Estado de Mexico"));
+				S2.add(new Tecnica("Carlos Daniel Marceleño Rodriguez","CDMX"));
+				S3.add(new Serviciosemergentes("Carlos Daniel Marceleño Rodriguez","CDMX"));
+				S4.add(new Precariado("Carlos Daniel Marceleño Rodriguez","CDMX"));
+				S5.add(new Nuevosricos("Carlos Daniel Marceleño Rodriguez","CDMX"));
+				S6.add(new Establecida("Carlos Daniel Marceleño Rodriguez","CDMX"));
+				S7.add(new Acomodada("Carlos Daniel Marceleño Rodriguez","CDMX"));	
+				S8.add(new Elite("Carlos Daniel Marceleño Rodriguez","CDMX"));	
+				R.addAll(S1);
+				R.addAll(S2);
+				R.addAll(S3);
+				R.addAll(S4);
+				R.addAll(S5);
+				R.addAll(S6);
+				R.addAll(S7);
+				R.addAll(S8);
+        
+Iterable
+	Iteracion de una lista
+	List<Integer> listOfIntegers = obtainSomehow();
+	Logger l = Logger.getLogger("Test");
+	for (Integer i : listOfIntegers) {
+	  l.info("Integer value is : " + i);
+	}
+	/*El codigo tiene la misma funcion*/
+	List<Integer> listOfIntegers = obtainSomehow();
+	Logger l = Logger.getLogger("Test");
+	for (int aa = 0; aa < listOfIntegers.size(); aa++) {
+	  Integer I = listOfIntegers.get(aa);
+	  l.info("Integer value is : " + i);
+	}
+
+Conjuntos
+	Un conjunto es una coleccion de colecciones que por efinicion contiene elementos únicos
+	En comparacion a una lista que solo puede contener el mismo objeto cientos de veces
+	Un conjunto al igual que la lista es una interfaz por lo cual no se puede crear una instancia directamente de él
+	Implementaciones favoritas por J.Steven Perry: HashSet
+	Estas clases realizan un ordenamiento interno mediante el hashcode de el elemento (Objeto), por lo cual no sabremos que elemto tendra
+	Esto nos da una ventaja al poder sobre escribir el metodo .hashCode() y .equals para asi, si tenemos un objeto que tienen sus mismas caracteristicas y mismo hashcode no se agregue a la coleccion
+	
+	Poner algo en Conjunto
+	Preguntarle al conjunto 
+	Cuan grande es actualmente
+	
+	
+
+Mapas
+
+Es una construccion de coleccion útil porque permite asociar un objeto con su volor
+Una coleccion de Mapa Java solo puede tener objetos y define un contracto estricto
+
+
+Archivo del codigo Java
+
+JAR
+
+Uso de aplicaciones de terceros
+
+Escribir un buen codigo en Java
+Mantener pequeñas clases
+Nombre metodos con cuidado
+Mantenga pequeños los metodos
+Use comentarios
+Use un estilo consistente
+Use registro incorporado
+Siguiendo los pasos de Fowler
