@@ -33,10 +33,39 @@ Tipo formal
 				R.addAll(S8);
         
 Iterable
+	Iteracion de una lista
+	List<Integer> listOfIntegers = obtainSomehow();
+	Logger l = Logger.getLogger("Test");
+	for (Integer i : listOfIntegers) {
+	  l.info("Integer value is : " + i);
+	}
+	/*El codigo tiene la misma funcion*/
+	List<Integer> listOfIntegers = obtainSomehow();
+	Logger l = Logger.getLogger("Test");
+	for (int aa = 0; aa < listOfIntegers.size(); aa++) {
+	  Integer I = listOfIntegers.get(aa);
+	  l.info("Integer value is : " + i);
+	}
 
 Conjuntos
+	Un conjunto es una coleccion de colecciones que por efinicion contiene elementos únicos
+	En comparacion a una lista que solo puede contener el mismo objeto cientos de veces
+	Un conjunto al igual que la lista es una interfaz por lo cual no se puede crear una instancia directamente de él
+	Implementaciones favoritas por J.Steven Perry: HashSet
+	Estas clases realizan un ordenamiento interno mediante el hashcode de el elemento (Objeto), por lo cual no sabremos que elemto tendra
+	Esto nos da una ventaja al poder sobre escribir el metodo .hashCode() y .equals para asi, si tenemos un objeto que tienen sus mismas caracteristicas y mismo hashcode no se agregue a la coleccion
+	
+	Poner algo en Conjunto
+	Preguntarle al conjunto 
+	Cuan grande es actualmente
+	
+	
 
 Mapas
+
+Es una construccion de coleccion útil porque permite asociar un objeto con su volor
+Una coleccion de Mapa Java solo puede tener objetos y define un contracto estricto
+
 
 Archivo del codigo Java
 
